@@ -1,13 +1,8 @@
 let express = require('express');
 let app = express();
 let port = process.env.PORT || 3001;
-let https = require('https');
-let fs = require('fs');
 
-https.createServer({
-    key: fs.readFileSync('server.key'),
-    cert: fs.readFileSync('server.cert')
-}, app).listen(port);
+app.listen(port);
 
 console.log('server started on: ' + port);
 
