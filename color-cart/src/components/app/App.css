@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
+
+p, h2, span {
+    color: #282828;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html {
+    background: #E5E5E5;
+}
+
+.app-container {
+    padding-bottom: 50px;
+}
+
+button {
+    width: 140px;
+    height: 40px;
+    border-radius: 23px;
+    background: #1e4091;
+    color: #fff;
+    box-shadow: none;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    outline: none;
+    cursor: pointer;
+}

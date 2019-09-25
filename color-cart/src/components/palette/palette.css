@@ -1,0 +1,32 @@
+.palette-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.palette-title {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.palette-remove {
+    cursor: pointer;
+    width: 122px;
+    height: 122px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    position: relative;
+    box-shadow: 0px 0px 15px -5px rgba(0,0,0,0.15);
+    /* im not familiar with sketch and for some reason the grey trash can exported with a white bg, so i cant use the right bg color here */
+    background-color: #FFF;
+}
+
+.palette-remove-trash-icon {
+    fill: #D3D3D3;
+}

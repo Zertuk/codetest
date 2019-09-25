@@ -1,0 +1,40 @@
+.list-item {
+    width: 122px;
+    height: 122px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.list-item-selected {
+    box-shadow: 0px 0px 0px 4px rgba(0,0,0, 0.5) inset;
+}
+
+.list-item-selectable {
+    cursor: pointer;
+}
+
+.list-item-name {
+    color: #fff;
+    font-weight: 600;
+}
+
+.list-item-trash-icon {
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.list-item-trash-icon:hover {
+    cursor: pointer;
+}
+
+.list-item-removable:hover .list-item-trash-icon {
+    display: block;
+}
